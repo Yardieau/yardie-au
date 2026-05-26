@@ -1,9 +1,6 @@
-
 # Yardie.au
 
 Australia’s local online marketplace.
 
-## Run locally
-
-npm install
-npm run dev
+Standard listing: $2.99  
+Featured upgrade: $4.99
