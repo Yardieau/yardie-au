@@ -27,7 +27,10 @@ export default function Home() {
     <main>
       <header className="topbar">
         <div className="logoWrap">
-          <img src="/yardie-icon.svg" alt="Yardie.au" />
+          <div className="textLogo">
+  <span className="logoMark">Y</span>
+  <span className="logoText">YARDIE<span>.AU</span></span>
+</div>
 
         <nav className="nav">
           <a className="browse">Browse⌄</a>
