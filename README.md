@@ -1,6 +1,5 @@
-# Yardie.au
+# Yardie.au mockup match
 
-Australia’s local online marketplace.
+Upload/replace the whole `app` folder, the whole `public` folder, and `package.json`.
 
-Standard listing: $2.99  
-Featured upgrade: $4.99
+Then redeploy in Vercel.
