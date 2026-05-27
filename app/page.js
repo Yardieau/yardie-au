@@ -15,11 +15,11 @@ const categories = [
 ]
 
 const listings = [
-  ['2020 Toyota Hilux SR5', 'Brisbane, QLD', '$38,500', '/listing-1.jpg', true],
-  ['CAT 305.5 Excavator', 'Perth, WA', '$45,000', '/listing-2.jpg', true],
-  ['8x5 Box Trailer', 'Melbourne, VIC', '$2,200', '/listing-3.jpg', true],
-  ['Samsung 65” Smart TV', 'Adelaide, SA', '$850', '/listing-4.jpg', false],
-  ['LG 8kg Front Loader', 'Gold Coast, QLD', '$450', '/listing-5.jpg', false],
+  ['2020 Toyota Hilux SR5', 'Brisbane, QLD', '$38,500', '/hilux.jpg', true],
+  ['CAT 305.5 Excavator', 'Perth, WA', '$45,000', '/excavator.jpg', true],
+  ['8x5 Box Trailer', 'Melbourne, VIC', '$2,200', '/trailer.jpg', true],
+  ['Samsung 65” Smart TV', 'Adelaide, SA', '$850', '/tv.jpg', false],
+  ['LG 8kg Front Loader', 'Gold Coast, QLD', '$450', '/washing-machine.jpg', false],
 ]
 
 export default function Home() {
@@ -28,7 +28,6 @@ export default function Home() {
       <header className="topbar">
         <div className="logoWrap">
           <img src="/yardie-logo.png" alt="Yardie.au" />
-        </div>
 
         <nav className="nav">
           <a className="browse">Browse⌄</a>
