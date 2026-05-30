@@ -36,7 +36,7 @@ export default function Home() {
           <a className="browse">Browse⌄</a>
           <div className="topSearch">
             <span>⌕</span>
-            <input placeholder="Search for anything..." />
+            <input placeholder="Search for anything..." / >
           </div>
           <div className="location">⌖ Australia Wide⌄</div>
           <a className="login">Login</a>
