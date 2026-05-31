@@ -14,6 +14,7 @@ const categories = [
   ['⋯', 'More Categories'],
 ]
 
+
 const listings = [
   ['2020 Toyota Hilux SR5', 'Brisbane, QLD', '$38,500', '/hilux.jpg', true],
   ['CAT 305.5 Excavator', 'Perth, WA', '$45,000', '/excavator.jpg', true],
