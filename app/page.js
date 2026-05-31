@@ -32,6 +32,7 @@ export default function Home() {
   <span className="logoMark">Y</span>
   <span className="logoText">YARDIE<span>.AU</span></span>
 </div>
+    
 
         <nav className="nav">
           <a className="browse">Browse⌄</a>
