@@ -28,7 +28,7 @@ export default function Home() {
     <main>
       <header className="topbar">
         <div className="logoWrap">
-          <span className="logoText">YARDIE<span>.AU</span></span>
+        <h1 className="logoText">Yardie<span>.au</span></h1>
 
         <nav className="nav">
           <a className="browse">Browse⌄</a>
