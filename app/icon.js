@@ -1,9 +1,0 @@
-export default function Icon() {
-  return new Response(
-    `<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-      <rect width="64" height="64" rx="14" fill="#ff5a00"/>
-      <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-size="42" font-family="Arial" font-weight="900" fill="#111">Y</text>
-    </svg>`,
-    { headers: { 'Content-Type': 'image/svg+xml' } }
-  )
-}
