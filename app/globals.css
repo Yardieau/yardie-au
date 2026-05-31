@@ -521,3 +521,7 @@ input {
 .logoText span {
   color: #ff5a00;
 }
+
+.logoWrap img {
+  display: none !important;
+}
