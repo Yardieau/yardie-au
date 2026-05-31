@@ -28,8 +28,7 @@ export default function Home() {
     <main>
       <header className="topbar">
         <div className="logoWrap">
-          <img src="/yardie-logo.png" alt="Yardie.au" />
-        </div>
+          <img src="/yardie-logo.svg" alt="Yardie.au" />
 
         <nav className="nav">
           <a className="browse">Browse⌄</a>
