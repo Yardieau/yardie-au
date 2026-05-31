@@ -32,12 +32,6 @@ input {
   align-items: center;
 }
 
-.logoWrap img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .logoText {
   margin: 0;
   color: white;
