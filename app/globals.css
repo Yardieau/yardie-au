@@ -39,13 +39,17 @@ input {
 }
 
 .logoText {
+  margin: 0;
   color: white;
   font-size: 38px;
   font-weight: 1000;
-  letter-spacing: -1px;
+  line-height: 1;
   display: flex;
   align-items: center;
-  height: 100%;
+}
+
+.logoText span {
+  color: #ff5a00;
 }
 
 .nav {
