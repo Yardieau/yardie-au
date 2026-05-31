@@ -30,6 +30,7 @@ export default function Home() {
         <div className="logoWrap">
         <h1 className="logoText">Yardie<span>.au</span></h1>
 
+    
         <nav className="nav">
           <a className="browse">Browse⌄</a>
           <div className="topSearch">
