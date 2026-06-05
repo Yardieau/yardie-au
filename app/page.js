@@ -28,8 +28,8 @@ export default function Home() {
 <main>
   <header className="topbar">
     <div className="logoWrap">
-      <h1 className="logoText">Yardie<span>.au</span></h1>
-    </div>
+  <img src="/yardie-logo.png" alt="Yardie.au" className="logoImage" />
+</div>
 
     <nav className="nav">
       <a className="browse">Browse</a>
