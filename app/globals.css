@@ -485,14 +485,16 @@ input {
   }
 
   .trustPill {
-    position: static;
-    margin: 20px 22px 0;
-    width: auto;
-    min-width: 0;
-    padding: 14px;
-    display: grid;
-    gap: 10px;
-    text-align: center;
+  position: relative;
+  margin: 24px auto 0;
+  width: calc(100% - 70px);
+  min-width: 0;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+  z-index: 2;
   }
 
   .trustPill b {
@@ -503,7 +505,7 @@ input {
     grid-template-columns: repeat(14, 95px);
     overflow-x: auto;
     width: calc(100% - 28px);
-    margin-top: 16px;
+    margin-top: 28px;
   }
 
   .mainArea {
