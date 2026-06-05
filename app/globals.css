@@ -456,15 +456,16 @@ input {
   }
 
   .hero {
-    height: auto;
-    padding: 26px 18px 22px;
-    background-position: center;
+  height: 380px;
+  min-height: 380px;
+  padding: 22px 18px 18px;
+  background-position: center center;
+  background-size: cover;
   }
 
   .heroText h1 {
-    font-size: 34px;
-    line-height: 1;
-    letter-spacing: -1px;
+  font-size: 28px;
+  line-height: 0.95;
   }
 
   .heroText p {
@@ -474,10 +475,8 @@ input {
   }
 
   .heroButtons {
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 18px;
-  }
+  margin-top: 14px;
+}
 
   .heroButtons button {
     width: 100%;
