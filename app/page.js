@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="heroText">
           <h1>AUSTRALIA’S LOCAL <span>ONLINE MARKETPLACE</span></h1>
-          <p>Buy, sell and find just about anything.<br />From tools to utes and everything in between.</p>
+         <p>Buy, sell and find just about anything.<br />From tools to utes and everything in between.</p>
 
           <div className="heroButtons">
             <button>Post an Ad — $2.99</button>
@@ -95,8 +95,8 @@ export default function Home() {
                   <h3>{title}</h3>
                   <p>📍 {place}</p>
                   <div className="priceRow">
-                    <strong>{price}</strong>pp
-                    <span>♡</span>p
+                    <strong>{price}</strong>
+                     <span>♡</span>
                   </div>
                 </div>
               </article>
