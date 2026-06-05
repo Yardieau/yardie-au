@@ -1,4 +1,4 @@
-const categories = [
+⁸const categories = [
   ['🚗', 'Cars & Vehicles'],
   ['🔧', 'Tools & Equipment'],
   ['🚚', 'Trailers & Caravans'],
@@ -26,8 +26,7 @@ const listings = [
 export default function Home() {
   return (
     <main>
-      <header className="topbar">
-        <div className="logoWrap">
+      <div className="logoWrap">
   <h1 className="logoText">Yardie<span>.au</span></h1>
 </div>
 
@@ -44,6 +43,8 @@ export default function Home() {
           <button>Sign Up</button>
         </nav>
       </header>
+
+    
 
       <section className="hero">
         <button className="floatingPost">＋ Post an Ad</button>
@@ -94,8 +95,8 @@ export default function Home() {
                   <h3>{title}</h3>
                   <p>📍 {place}</p>
                   <div className="priceRow">
-                    <strong>{price}</strong>
-                    <span>♡</span>
+                    <strong>{price}</strong>pp
+                    <span>♡</span>p
                   </div>
                 </div>
               </article>
