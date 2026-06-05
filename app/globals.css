@@ -434,7 +434,7 @@ input {
   line-height: 1.25;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 0px) {
   .topbar {
     height: 78px;
     padding: 0 18px;
