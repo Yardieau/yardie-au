@@ -47,13 +47,21 @@ export default function Home() {
     
 
       <section className="hero">
-        <button className="floatingPost">＋ Post an Ad</button>
+        <a href="/post" className="floatingPost">
+  + Post an Ad
+</a>
 
         <div className="heroText">
           <h1>AUSTRALIA’S LOCAL <span>ONLINE MARKETPLACE</span></h1>
-         <p>Buy, sell and find just about anything.<br />From tools to utes and everything in between.</p>
+         <div className="heroButtons">
+  <a href="/post">
+    <button>Post an Ad — $2.99</button>
+  </a>
 
-          <div className="heroButtons">
+  <button className="ghost">
+    Browse Listings
+  </button>
+</div>
             <button>Post an Ad — $2.99</button>
             <button className="ghost">Browse Listings</button>
           </div>
