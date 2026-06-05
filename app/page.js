@@ -25,24 +25,24 @@ const listings = [
 
 export default function Home() {
   return (
-    <main>
-      <div className="logoWrap">
-  <img src="/yardie-logo.svg" alt="Yardie.au" className="logoImage" />
-</div>
+<main>
+  <header className="topbar">
+    <div className="logoWrap">
+      <img src="/yardie-logo.svg" alt="Yardie.au" className="logoImage" />
+    </div>
 
-    
-        <nav className="nav">
-          <a className="browse">Browse⌄</a>
-          <div className="topSearch">
-            <span>⌕</span>
-            <input placeholder="Search for anything..." />
-          </div>
-          <div className="location">⌖ Australia Wide⌄</div>
-          <a className="login">Login</a>
-          <span className="divider"></span>
-          <button>Sign Up</button>
-        </nav>
-      </header>
+    <nav className="nav">
+      <a className="browse">Browse</a>
+      <div className="topSearch">
+        <span>⌕</span>
+        <input placeholder="Search for anything..." />
+      </div>
+      <div className="location">⌖ Australia Wide</div>
+      <a className="login">Login</a>
+      <span className="divider"></span>
+      <button>Sign Up</button>
+    </nav>
+  </header>
 
     
 
