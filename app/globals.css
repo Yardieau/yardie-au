@@ -436,33 +436,35 @@ input {
 
 @media (max-width: 1100px) {
   .topbar {
-    height: 86px;
-    padding: 0 20px;
+    height: 78px;
+    padding: 0 18px;
   }
 
   .logoWrap {
-  width: 150px;
-  flex-basis: 150px;
-}
+    width: 190px;
+    flex-basis: 190px;
+  }
 
-.logoImage {
-  height: 38px;
-  width: auto;
-}
+  .logoImage {
+    height: 42px;
+    width: auto;
+  }
+
   .nav {
     display: none;
   }
 
   .hero {
-  height: 520px;
-  min-height: 520px;
-  padding: 35px 24px 40px;
-  background-position: center;
+    height: 430px;
+    min-height: 430px;
+    padding: 32px 22px 28px;
+    background-position: center;
   }
 
   .heroText h1 {
-  font-size: 38px;
-}
+    font-size: 39px;
+    line-height: 1;
+  }
 
   .heroText p {
     font-size: 18px;
@@ -470,7 +472,12 @@ input {
 
   .heroButtons {
     flex-direction: column;
-    max-width: 365px;
+    gap: 14px;
+    margin-top: 20px;
+  }
+
+  .heroButtons button {
+    width: 100%;
   }
 
   .floatingPost {
@@ -478,19 +485,25 @@ input {
   }
 
   .trustPill {
-  position: static;
-  margin-top: 28px;
-  width: 100%;
-  min-width: 0;
-  display: grid;
-  gap: 16px;
-  text-align: center;
-}
+    position: static;
+    margin: 20px 22px 0;
+    width: auto;
+    min-width: 0;
+    padding: 14px;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .trustPill b {
+    display: none;
+  }
 
   .categoryStrip {
-    grid-template-columns: repeat(14, 108px);
+    grid-template-columns: repeat(14, 95px);
     overflow-x: auto;
     width: calc(100% - 28px);
+    margin-top: 16px;
   }
 
   .mainArea {
@@ -513,4 +526,4 @@ input {
     border-bottom: 1px solid #eee;
     padding-bottom: 12px;
   }
-  }
+}
