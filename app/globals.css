@@ -454,9 +454,9 @@ input {
   }
 
   .hero {
-  height: 420px;
-  min-height: 420px;
-  padding: 40px 26px;
+  height: 520px;
+  min-height: 520px;
+  padding: 35px 24px 40px;
   background-position: center;
   }
 
@@ -478,12 +478,14 @@ input {
   }
 
   .trustPill {
-    position: static;
-    margin-top: 28px;
-    min-width: 0;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
+  position: static;
+  margin-top: 28px;
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  gap: 16px;
+  text-align: center;
+}
 
   .categoryStrip {
     grid-template-columns: repeat(14, 108px);
