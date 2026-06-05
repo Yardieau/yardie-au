@@ -62,9 +62,7 @@ export default function Home() {
     Browse Listings
   </button>
 </div>
-            <button>Post an Ad — $2.99</button>
-            <button className="ghost">Browse Listings</button>
-          </div>
+            
         </div>
 
         <div className="trustPill">
