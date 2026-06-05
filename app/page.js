@@ -28,6 +28,7 @@ export default function Home() {
     <main>
       <div className="logoWrap">
   <img src="/yardie-logo.svg" alt="Yardie.au" className="logoImage" />
+</div>
 
     
         <nav className="nav">
