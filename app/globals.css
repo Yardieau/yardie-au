@@ -441,24 +441,28 @@ input {
   }
 
   .logoWrap {
-    width: 270px;
-    flex-basis: 270px;
-  }
+  width: 150px;
+  flex-basis: 150px;
+}
 
+.logoImage {
+  height: 38px;
+  width: auto;
+}
   .nav {
     display: none;
   }
 
   .hero {
-    height: auto;
-    min-height: 610px;
-    padding: 56px 26px 60px;
-    background-position: center;
+  height: 420px;
+  min-height: 420px;
+  padding: 40px 26px;
+  background-position: center;
   }
 
   .heroText h1 {
-    font-size: 48px;
-  }
+  font-size: 38px;
+}
 
   .heroText p {
     font-size: 18px;
