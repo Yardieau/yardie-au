@@ -436,17 +436,17 @@ input {
 
 @media (max-width: 1100px) {
   .topbar {
-    height: 92px;
-    padding: 0 28px;
+    height: 70px;
+    padding: 0 18px;
   }
 
   .logoWrap {
-    width: 230px;
-    flex-basis: 230px;
+    width: 180px;
+    flex-basis: 180px;
   }
 
   .logoImage {
-    height: 52px;
+    height: 38px;
     width: auto;
     display: block;
   }
@@ -457,31 +457,32 @@ input {
 
   .hero {
     height: auto;
-    min-height: 0;
-    padding: 34px 24px 30px;
+    padding: 26px 18px 22px;
     background-position: center;
   }
 
   .heroText h1 {
-    font-size: 42px;
+    font-size: 34px;
     line-height: 1;
     letter-spacing: -1px;
   }
 
   .heroText p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.35;
+    margin-top: 14px;
   }
 
   .heroButtons {
     flex-direction: column;
-    gap: 14px;
-    margin-top: 22px;
+    gap: 12px;
+    margin-top: 18px;
   }
 
   .heroButtons button {
     width: 100%;
     min-width: 0;
+    padding: 14px 18px;
   }
 
   .floatingPost {
@@ -490,14 +491,15 @@ input {
 
   .trustPill {
     position: static;
-    margin: 24px 0 0;
+    margin: 18px 0 0;
     width: 100%;
     min-width: 0;
-    padding: 16px 18px;
+    padding: 14px 16px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     text-align: center;
+    font-size: 16px;
   }
 
   .trustPill b {
@@ -505,16 +507,30 @@ input {
   }
 
   .categoryStrip {
-    width: calc(100% - 28px);
-    margin: 18px auto 0;
-    grid-template-columns: repeat(14, 96px);
+    width: calc(100% - 24px);
+    margin: 14px auto 0;
+    grid-template-columns: repeat(14, 88px);
     overflow-x: auto;
+    padding: 12px 10px;
+  }
+
+  .category {
+    min-height: 72px;
+    font-size: 11px;
+  }
+
+  .catIcon {
+    font-size: 24px;
   }
 
   .mainArea {
-    width: calc(100% - 28px);
-    margin-top: 28px;
+    width: calc(100% - 24px);
+    margin-top: 24px;
     grid-template-columns: 1fr;
+  }
+
+  .sectionTitle h2 {
+    font-size: 28px;
   }
 
   .cards {
@@ -522,11 +538,11 @@ input {
   }
 
   .why {
-    margin-top: 8px;
+    margin-top: 12px;
   }
 
   .bottomStrip {
-    width: calc(100% - 28px);
+    width: calc(100% - 24px);
     grid-template-columns: 1fr;
     gap: 12px;
   }
