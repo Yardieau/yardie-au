@@ -1,4 +1,4 @@
-⁸const categories = [
+const categories = [
   ['🚗', 'Cars & Vehicles'],
   ['🔧', 'Tools & Equipment'],
   ['🚚', 'Trailers & Caravans'],
